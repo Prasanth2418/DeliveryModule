@@ -106,7 +106,7 @@ const Settings = ({ navigation }) => {
             borderBottomColor: "black",
             borderBottomWidth: 1,
             position: "relative",
-            top: 11,
+            top: 12,
           }}
         />
       </View>
