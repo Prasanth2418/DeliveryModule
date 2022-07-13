@@ -8,6 +8,7 @@ import Com_Orders_page from "./src/Com_Orders_Page"
 import Collections from './src/Collections';
 import ViewDetails from "./src/ViewDetails"
 import LoginPage from './src/LoginPage';
+import Settings from './src/Settings';
 
 export default function App() {
 
@@ -28,6 +29,7 @@ export default function App() {
       <Stack.Screen name="completedOrders" component={Com_Orders_page}/>
       <Stack.Screen name="Collections" component={Collections}/>
       <Stack.Screen name="ViewDetails" component={ViewDetails}/>
+      <Stack.Screen name="settings"  component={Settings}/>
     </Stack.Navigator>
    </NavigationContainer>
    

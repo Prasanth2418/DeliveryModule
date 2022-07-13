@@ -34,7 +34,7 @@ const LoginPage = ({ navigation }) => {
             marginLeft: 100,
             marginRight: 100,
             height: 50,
-            paddingTop:9,
+            paddingTop:7,
           }}
         >
           Login

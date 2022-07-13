@@ -71,7 +71,7 @@ const HomePage = ({ navigation }) => {
       </View>
 
       <View>
-        <TouchableOpacity style={styles.button4}>
+        <TouchableOpacity style={styles.button4} onPress={() => navigation.navigate("settings")}>
           <Image style={styles.Logo4} source={Profile} />
           <Text style={styles.welcom2}>Profile & Settings</Text>
         </TouchableOpacity>
