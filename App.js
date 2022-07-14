@@ -9,6 +9,7 @@ import Collections from './src/Collections';
 import ViewDetails from "./src/ViewDetails"
 import LoginPage from './src/LoginPage';
 import Settings from './src/Settings';
+import Profile from './src/Profile';
 
 export default function App() {
 
@@ -30,6 +31,7 @@ export default function App() {
       <Stack.Screen name="Collections" component={Collections}/>
       <Stack.Screen name="ViewDetails" component={ViewDetails}/>
       <Stack.Screen name="settings"  component={Settings}/>
+      <Stack.Screen name="Profile" component={Profile}/>
     </Stack.Navigator>
    </NavigationContainer>
    

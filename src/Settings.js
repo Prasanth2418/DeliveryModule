@@ -57,7 +57,7 @@ const Settings = ({ navigation }) => {
       </Text>
       <Text style={{ textAlign: "center", marginTop: 5 }}>ID: AB2345G56</Text>
       <View>
-        <TouchableOpacity>
+        <TouchableOpacity  onPress={() => navigation.navigate("Profile")}>
           <Text style={{ marginLeft: 20, marginTop: 50, fontSize: 20 }}>
             Profile
           </Text>
@@ -85,7 +85,7 @@ const Settings = ({ navigation }) => {
         />
         <TouchableOpacity>
           <Text style={{ marginLeft: 20, marginTop: 25, fontSize: 20 }}>
-            App Settings
+            Contact Us
           </Text>
         </TouchableOpacity>
         <View
@@ -96,11 +96,11 @@ const Settings = ({ navigation }) => {
             top: 11,
           }}
         />
-        <TouchableOpacity>
+      
           <Text style={{ marginLeft: 20, marginTop: 20, fontSize: 20 }}>
-            Contact Us
+           App Version 11.0
           </Text>
-        </TouchableOpacity>
+     
         <View
           style={{
             borderBottomColor: "black",
