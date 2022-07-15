@@ -7,10 +7,11 @@ import {
     ScrollView,
   } from "react-native";
   import { Card, Button } from "react-native-elements";
-  import React from "react";
+  import React, { useState } from "react";
   import Logo from "../assets/Logo.png";
   
   const PendingOrdersPage = ({ navigation }) => {
+  
     return (
       <View>
         <View style={styles.MainContainer}>
@@ -78,27 +79,30 @@ import {
             <Button
               buttonStyle={{
                 borderRadius: 10,
-                marginLeft: 0,
+               marginLeft: 0,
                 marginRight: 0,
                 marginBottom: 0,
                 backgroundColor:"red",
                }}
-              title="Confirm"
+              title="Out For Delivery"
               />
-               </Card>
-          
-        </ScrollView>
-        <Button
+              <Button
+         onPress={() => navigation.navigate("Tracking")}
               buttonStyle={{
                 borderRadius: 10,
-                marginLeft: 5,
-                marginRight: 5,
+                widhth:100,
+                marginLeft: 0,
+                marginRight: 0,
                 marginBottom: 0,
-                marginTop:"40%",
+                marginTop:10,
                 backgroundColor:"blue",
                }}
               title="Get Location/Routes"
               />
+               </Card>
+          
+        </ScrollView>
+        
       </View>
     );
   };

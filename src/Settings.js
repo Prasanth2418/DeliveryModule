@@ -59,7 +59,7 @@ const Settings = ({ navigation }) => {
       <View>
         <TouchableOpacity  onPress={() => navigation.navigate("Profile")}>
           <Text style={{ marginLeft: 20, marginTop: 50, fontSize: 20 }}>
-            Profile
+            Personal Details
           </Text>
         </TouchableOpacity>
         <View
@@ -70,9 +70,9 @@ const Settings = ({ navigation }) => {
             top: 10,
           }}
         />
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("password")}>
           <Text style={{ marginLeft: 20, marginTop: 25, fontSize: 20 }}>
-            Rest Password
+            Reset Password
           </Text>
         </TouchableOpacity>
         <View
@@ -98,7 +98,7 @@ const Settings = ({ navigation }) => {
         />
       
           <Text style={{ marginLeft: 20, marginTop: 20, fontSize: 20 }}>
-           App Version 11.0
+           App Version 1.0.2
           </Text>
      
         <View

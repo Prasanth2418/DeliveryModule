@@ -10,6 +10,8 @@ import ViewDetails from "./src/ViewDetails"
 import LoginPage from './src/LoginPage';
 import Settings from './src/Settings';
 import Profile from './src/Profile';
+import Tracking from "./src/Tracking"
+import ResetPassword from './src/ResetPassword';
 
 export default function App() {
 
@@ -32,6 +34,8 @@ export default function App() {
       <Stack.Screen name="ViewDetails" component={ViewDetails}/>
       <Stack.Screen name="settings"  component={Settings}/>
       <Stack.Screen name="Profile" component={Profile}/>
+      <Stack.Screen name="Tracking"  component={Tracking}/>
+      <Stack.Screen name="password" component={ResetPassword}/>
     </Stack.Navigator>
    </NavigationContainer>
    

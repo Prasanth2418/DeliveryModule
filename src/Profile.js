@@ -1,8 +1,8 @@
-import { View, Text,Image,TouchableOpacity } from 'react-native'
-import Logo from "../assets/Logo.png"
-import React from 'react'
+import { View, Text, Image, TouchableOpacity } from "react-native";
+import Logo from "../assets/Logo.png";
+import React from "react";
 
-const Profile = ({navigation}) => {
+const Profile = ({ navigation }) => {
   return (
     <View>
       <View style={{ marginTop: 0 }}>
@@ -37,32 +37,10 @@ const Profile = ({navigation}) => {
         }}
       />
       <View>
-        <Text style={{paddingLeft:20,fontSize:20,fontWeight:"bold"}}>Delivery Boy ID</Text>
-        <Text style={{paddingLeft:20,fontSize:20}}>AB2345G56</Text>
-      </View>
-      <View
-        style={{
-          borderBottomColor: "black",
-          borderBottomWidth: 0.5,
-          position: "relative",
-          top: 10,
-        }}
-      />
-       <View>
-        <Text style={{paddingLeft:20,fontSize:20,fontWeight:"bold",marginTop:10}}>Name</Text>
-        <Text style={{paddingLeft:20,fontSize:20}}>Developer</Text>
-      </View>
-      <View
-        style={{
-          borderBottomColor: "black",
-          borderBottomWidth: 0.5,
-          position: "relative",
-          top: 10,
-        }}
-      />
-       <View>
-        <Text style={{paddingLeft:20,fontSize:20,fontWeight:"bold",marginTop:10}}>Mobile No.</Text>
-        <Text style={{paddingLeft:20,fontSize:20}}>+91-9347256780</Text>
+        <Text style={{ paddingLeft: 20, fontSize: 20, fontWeight: "bold" }}>
+          Delivery Boy ID
+        </Text>
+        <Text style={{ paddingLeft: 20, fontSize: 20 }}>AB2345G56</Text>
       </View>
       <View
         style={{
@@ -73,8 +51,17 @@ const Profile = ({navigation}) => {
         }}
       />
       <View>
-        <Text style={{paddingLeft:20,fontSize:20,fontWeight:"bold",marginTop:10}}>Gender</Text>
-        <Text style={{paddingLeft:20,fontSize:20}}>Male</Text>
+        <Text
+          style={{
+            paddingLeft: 20,
+            fontSize: 20,
+            fontWeight: "bold",
+            marginTop: 10,
+          }}
+        >
+          Name
+        </Text>
+        <Text style={{ paddingLeft: 20, fontSize: 20 }}>Developer</Text>
       </View>
       <View
         style={{
@@ -84,9 +71,18 @@ const Profile = ({navigation}) => {
           top: 10,
         }}
       />
-       <View>
-        <Text style={{paddingLeft:20,fontSize:20,fontWeight:"bold",marginTop:10}}>Address</Text>
-        <Text style={{paddingLeft:20,fontSize:20}}>Hyderabad,Telengana,500072</Text>
+      <View>
+        <Text
+          style={{
+            paddingLeft: 20,
+            fontSize: 20,
+            fontWeight: "bold",
+            marginTop: 10,
+          }}
+        >
+          Mobile No.
+        </Text>
+        <Text style={{ paddingLeft: 20, fontSize: 20 }}>+91-9347256780</Text>
       </View>
       <View
         style={{
@@ -96,10 +92,52 @@ const Profile = ({navigation}) => {
           top: 10,
         }}
       />
-      
-      
+      <View>
+        <Text
+          style={{
+            paddingLeft: 20,
+            fontSize: 20,
+            fontWeight: "bold",
+            marginTop: 10,
+          }}
+        >
+          Gender
+        </Text>
+        <Text style={{ paddingLeft: 20, fontSize: 20 }}>Male</Text>
+      </View>
+      <View
+        style={{
+          borderBottomColor: "black",
+          borderBottomWidth: 0.5,
+          position: "relative",
+          top: 10,
+        }}
+      />
+      <View>
+        <Text
+          style={{
+            paddingLeft: 20,
+            fontSize: 20,
+            fontWeight: "bold",
+            marginTop: 10,
+          }}
+        >
+          Address
+        </Text>
+        <Text style={{ paddingLeft: 20, fontSize: 20 }}>
+          Hyderabad,Telengana,500072
+        </Text>
+      </View>
+      <View
+        style={{
+          borderBottomColor: "black",
+          borderBottomWidth: 0.5,
+          position: "relative",
+          top: 10,
+        }}
+      />
     </View>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;
