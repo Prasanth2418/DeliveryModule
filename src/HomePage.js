@@ -21,7 +21,7 @@ const HomePage = ({ navigation }) => {
     <View style={styles.MainContainer}>
       <Text style={styles.Container}>Delivery Boy</Text>
       <View>
-        <Image style={styles.tinyLogo} source={Logo} />
+        <Image style={styles.tinyLogo} source={{uri:"https://media1.giphy.com/media/k1DsEOlBb9Bd5VGLrc/giphy.gif?cid=ecf05e47y1q71kmy0dc0asb5lyrcu7ty3wl5nweghusikppl&rid=giphy.gif&ct=s"}} />
       </View>
       <View style={styles.container}>
         <Switch
